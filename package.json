@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node app",
     "dev": "nodemon",
-    "test": "nyc --reporter=html mocha -t 10000",
     "build": "NODE_ENV=production node app @apostrophecms/asset:build",
     "serve": "NODE_ENV=production node app",
     "release": "npm install && npm run build && node app @apostrophecms/migration:migrate"
