@@ -37,6 +37,9 @@ require('apostrophe')({
       options: {
         ignoreNoCodeWarning: true
       }
-    }
+    },
+
+    // Widgets
+    'two-column-widget': {}
   }
 });
